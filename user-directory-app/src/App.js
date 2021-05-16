@@ -1,21 +1,12 @@
 import './App.css';
-import { useEffect, useState } from "react";
-import Search from '';
-import Navbar from '';
-import Table from '';
+import Navbar from './Components/Navbar/navbar';
+import Table from './Components/Table/table';
+
 
 function App() {
-
-
-  // state = {
-  //   searchKeyword = "",
-  // };
-
-
   return (
     <>
       <div>
-        <Search />
         <Navbar />
         <Table />
       </div>
